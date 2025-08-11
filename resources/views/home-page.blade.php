@@ -153,8 +153,8 @@
     <section class="container my-20 mx-auto">
         <h2 class="sr-only">Carousel</h2>
 
-        <ul class="text-gray-600 text-xl tracking-wider">
-            <li class="lg:flex lg:items-center lg:ml-20 mx-8">
+        <ul class="text-gray-600 text-xl tracking-wider mx-8 lg:mx-auto">
+            <li class="lg:flex lg:items-center lg:ml-20">
                 <div>
                     <h3 class="text-sky-500 text-5xl font-[900] mb-5 leading-tight">
                         Maximize your mobile data <br class="hidden xl:block" />
