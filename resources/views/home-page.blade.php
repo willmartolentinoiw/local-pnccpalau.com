@@ -261,65 +261,89 @@
         <h2 class="h3 text-sky-500 text-4xl lg:text-5xl font-semibold mb-20">How can we help?</h2>
 
         <ul class="sm:flex sm:justify-between sm:flex-wrap text-white tracking-wider mx-8 sm:mx-auto xl:w-[85%]">
-            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
-                <i class="size-14">
-                    {!! file_get_contents('img/ui/icons/svg/cart.svg') !!}
-                </i>
+            <li class="sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[30%] lg:flex-[0_0_30%] mb-14 lg:mb-20">
+                <a href="#" class="relative flex flex-col items-center justify-center bg-gray-100 text-red-400 rounded-3xl h-full py-16 px-10 hover:bg-blue-100/50 transition-colors">
+                    <span class="bg-[url(../../img/pages/index/backgrounds/curve.svg)] bg-no-repeat bg-right absolute top-0 h-[60%] w-full"></span>
 
-                <p class="font-semibold leading-tight mt-2">
-                    Buy Prepaid Airtime <br />
-                    or Internet Online
-                </p>
+                    <i class="size-14">
+                        {!! file_get_contents('img/ui/icons/svg/cart.svg') !!}
+                    </i>
+
+                    <p class="font-semibold leading-tight mt-2">
+                        Buy Prepaid Airtime <br />
+                        or Internet Online
+                    </p>
+                </a>
             </li>
-            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
-                <i class="size-14">
-                    {!! file_get_contents('img/ui/icons/svg/pointer-hand.svg') !!}
-                </i>
+            <li class="sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[30%] lg:flex-[0_0_30%] mb-14 lg:mb-20">
+                <a href="#" class="relative flex flex-col items-center justify-center bg-gray-100 text-red-400 rounded-3xl h-full py-16 px-10 hover:bg-blue-100/50 transition-colors">
+                    <span class="bg-[url(../../img/pages/index/backgrounds/leave-01.svg)] bg-no-repeat absolute top-0 h-[40%] w-full"></span>
 
-                <p class="font-semibold leading-tight mt-2">
-                    Pay my bill online, view bill <br />
-                    history and check postpaid <br />
-                    mobile data usage
-                </p>
+                    <i class="size-14">
+                        {!! file_get_contents('img/ui/icons/svg/pointer-hand.svg') !!}
+                    </i>
+
+                    <p class="font-semibold leading-tight mt-2">
+                        Pay my bill online, view bill <br />
+                        history and check postpaid <br />
+                        mobile data usage
+                    </p>
+                </a>
             </li>
-            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
-                <i class="size-14">
-                    {!! file_get_contents('img/ui/icons/svg/pointer-hand.svg') !!}
-                </i>
+            <li class="sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[30%] lg:flex-[0_0_30%] mb-14 lg:mb-20">
+                <a href="#" class="relative flex flex-col items-center justify-center bg-gray-100 text-red-400 rounded-3xl h-full py-16 px-10 hover:bg-blue-100/50 transition-colors">
+                    <span class="bg-[url(../../img/pages/index/backgrounds/flower.svg)] bg-no-repeat bg-right absolute top-0 h-[55%] w-full"></span>
 
-                <p class="font-semibold leading-tight mt-2">
-                    Pay my bill online <br />
-                    (no registration required)
-                </p>
+                    <i class="size-14">
+                        {!! file_get_contents('img/ui/icons/svg/pointer-hand.svg') !!}
+                    </i>
+
+                    <p class="font-semibold leading-tight mt-2">
+                        Pay my bill online <br />
+                        (no registration required)
+                    </p>
+                </a>
             </li>
-            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
-                <i class="size-14">
-                    {!! file_get_contents('img/ui/icons/svg/app.svg') !!}
-                </i>
+            <li class="sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[30%] lg:flex-[0_0_30%] mb-14 lg:mb-20">
+                <a href="#" class="relative flex flex-col items-center justify-center bg-gray-100 text-red-400 rounded-3xl h-full py-16 px-10 hover:bg-blue-100/50 transition-colors">
+                    <span class="bg-[url(../../img/pages/index/backgrounds/feather.svg)] bg-no-repeat bg-right absolute bottom-0 h-[60%] w-full"></span>
 
-                <p class="font-semibold leading-tight mt-2">
-                    Download the <br />
-                    SmartHub app
-                </p>
+                    <i class="size-14">
+                        {!! file_get_contents('img/ui/icons/svg/app.svg') !!}
+                    </i>
+
+                    <p class="font-semibold leading-tight mt-2">
+                        Download the <br />
+                        SmartHub app
+                    </p>
+                </a>
             </li>
-            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
-                <i class="size-14">
-                    {!! file_get_contents('img/ui/icons/svg/lifebuoy.svg') !!}
-                </i>
+            <li class="sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[30%] lg:flex-[0_0_30%] mb-14 lg:mb-20">
+                <a href="#" class="relative flex flex-col items-center justify-center bg-gray-100 text-red-400 rounded-3xl h-full py-16 px-10 hover:bg-blue-100/50 transition-colors">
+                    <span class="bg-[url(../../img/pages/index/backgrounds/leave-02.svg)] bg-no-repeat bg-right absolute top-0 h-[65%] w-full"></span>
 
-                <p class="font-semibold leading-tight mt-2">
-                    Customer Support: <br />
-                    Call 611
-                </p>
+                    <i class="size-14">
+                        {!! file_get_contents('img/ui/icons/svg/lifebuoy.svg') !!}
+                    </i>
+
+                    <p class="font-semibold leading-tight mt-2">
+                        Customer Support: <br />
+                        Call 611
+                    </p>
+                </a>
             </li>
-            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
-                <i class="size-14">
-                    {!! file_get_contents('img/ui/icons/svg/star-on-hand.svg') !!}
-                </i>
+            <li class="sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[30%] lg:flex-[0_0_30%] mb-14 lg:mb-20">
+                <a href="#" class="relative flex flex-col items-center justify-center bg-gray-100 text-red-400 rounded-3xl h-full py-16 px-10 hover:bg-blue-100/50 transition-colors">
+                    <span class="bg-[url(../../img/pages/index/backgrounds/clouds.svg)] bg-no-repeat bg-right absolute bottom-0 h-[40%] w-full"></span>
 
-                <p class="font-semibold leading-tight mt-2">
-                    Unlock exclusive rewards
-                </p>
+                    <i class="size-14">
+                        {!! file_get_contents('img/ui/icons/svg/star-on-hand.svg') !!}
+                    </i>
+
+                    <p class="font-semibold leading-tight mt-2">
+                        Unlock exclusive rewards
+                    </p>
+                </a>
             </li>
         </ul>
     </section>
