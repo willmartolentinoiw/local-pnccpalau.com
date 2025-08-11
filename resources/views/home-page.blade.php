@@ -9,7 +9,9 @@
 </head>
 
 <body>
-    <section>
+
+    {{-- [Masthead] ::start --}}
+    <section class="mx-8 xl:mx-auto">
         <h2 class="sr-only">Masthead</h2>
 
         <section class="container flex items-center justify-between mx-auto pt-7 pb-5">
@@ -145,6 +147,42 @@
             </nav>
         </section>
     </section>
+    {{-- [Masthead] ::end --}}
+
+    {{-- [Carousel] ::start --}}
+    <section class="container my-20 mx-auto">
+        <h2 class="sr-only">Carousel</h2>
+
+        <ul class="text-gray-600 text-xl tracking-wider">
+            <li class="lg:flex lg:items-center lg:ml-20 mx-8">
+                <div>
+                    <h3 class="text-sky-500 text-5xl font-[900] mb-5 leading-tight">
+                        Maximize your mobile data <br class="hidden xl:block" />
+                        with PNCC 4G Coverage
+                    </h3>
+
+                    <p>
+                        Enjoy Palau's Best Mobile Data - Highest LTE Speeds, Biggest <br class="hidden xl:block" />
+                        Network Coverage, and many Prepaid and Postpaid options
+                    </p>
+
+                    <button type="button"
+                        class="relative flex items-center rounded-full bg-yellow-300 mt-14 p-5 px-12 xl:text-xl text-blue-900 font-semibold tracking-wide hover:bg-yellow-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                        <span class="absolute -inset-1.5"></span>
+                        <span>Learn More</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="size-6 ml-2 hidden xl:inline-block">
+                            <path fill-rule="evenodd"
+                                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <img src="/img/ui/slider/slide-01.png" class="hidden lg:block w-[45%]" />
+            </li>
+        </ul>
+    </section>
+    {{-- [Carousel] ::end --}}
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
