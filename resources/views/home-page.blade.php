@@ -63,9 +63,9 @@
                             </button>
                         </div>
                         <div class="flex flex-1 items-center justify-center sm:justify-start">
-                            <i class="flex shrink-0 items-center w-40 h-20">
+                            <a href="/" class="flex shrink-0 items-center w-40 h-20 hover:opacity-50 transition-opacity">
                                 {!! file_get_contents('img/ui/logo.svg') !!}
-                            </i>
+                            </a>
                             <div class="hidden sm:ml-6 lg:ml-14 sm:block">
                                 <div class="flex space-x-2 font-semibold">
                                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
