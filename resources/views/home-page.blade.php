@@ -15,7 +15,7 @@
         <section class="container flex items-center justify-between mx-auto pt-7 pb-5">
             <h2 class="sr-only">Action Buttons</h2>
 
-            <a href="/" class="inline-flex items-center text-sm uppercase font-semibold">
+            <a href="/" class="inline-flex items-center text-sm uppercase font-semibold hover:text-blue-800 transition-colors">
                 Help and Support
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                     class="size-3.5 ml-2 -mt-0.5">
@@ -42,8 +42,8 @@
         <section>
             <h2 class="sr-only">Navigation</h2>
 
-            <nav class="container mx-auto bg-gray-800 rounded-xl">
-                <div class="max-w-7xl px-2 sm:px-6 lg:px-8">
+            <nav class="container mx-auto bg-blue-950 rounded-xl">
+                <div class="max-w-7xl px-2 sm:px-6 lg:px-10">
                     <div class="relative flex h-28 items-center justify-between">
                         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                             <!-- Mobile menu button-->
@@ -62,16 +62,15 @@
                                 </svg>
                             </button>
                         </div>
-                        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                            <div class="flex shrink-0 items-center">
-                                <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                                    alt="Your Company" class="h-8 w-auto" />
-                            </div>
-                            <div class="hidden sm:ml-6 lg:ml-20 sm:block">
-                                <div class="flex space-x-4 font-semibold">
+                        <div class="flex flex-1 items-center justify-center sm:justify-start">
+                            <i class="flex shrink-0 items-center w-40 h-20">
+                                {!! file_get_contents('img/ui/logo.svg') !!}
+                            </i>
+                            <div class="hidden sm:ml-6 lg:ml-14 sm:block">
+                                <div class="flex space-x-2 font-semibold">
                                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                                     <a href="#" aria-current="page"
-                                        class="inline-flex items-center rounded-md bg-gray-900 px-3 py-2 font-medium text-white">
+                                        class="inline-flex items-center rounded-md px-3 py-2 font-medium text-yellow-300">
                                         Residential &amp; Personal
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                             stroke-width="1.5" stroke="currentColor" class="size-4 ml-3">
@@ -80,7 +79,7 @@
                                         </svg>
                                     </a>
                                     <a href="#"
-                                        class="inline-flex items-center rounded-md px-3 py-2 font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                                        class="inline-flex items-center rounded-md px-3 py-2 font-medium text-white hover:text-yellow-300">
                                         Business
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                             stroke-width="1.5" stroke="currentColor" class="size-4 ml-3">
@@ -89,7 +88,7 @@
                                         </svg>
                                     </a>
                                     <a href="#"
-                                        class="inline-flex items-center rounded-md px-3 py-2 font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                                        class="inline-flex items-center rounded-md px-3 py-2 font-medium text-white hover:text-yellow-300">
                                         Visitors
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                             stroke-width="1.5" stroke="currentColor" class="size-4 ml-3">
@@ -98,10 +97,10 @@
                                         </svg>
                                     </a>
                                     <a href="#"
-                                        class="rounded-md px-3 py-2 font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Online
+                                        class="rounded-md px-3 py-2 font-medium text-white hover:text-yellow-300">Online
                                         Store</a>
                                     <a href="#"
-                                        class="inline-flex items-center rounded-md px-3 py-2 font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                                        class="inline-flex items-center rounded-md px-3 py-2 font-medium text-white hover:text-yellow-300">
                                         About PNCC
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                             stroke-width="1.5" stroke="currentColor" class="size-4 ml-3">
@@ -115,7 +114,7 @@
                         <div
                             class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                             <button type="button"
-                                class="relative flex items-center rounded-full bg-yellow-300 py-1.5 px-8 text-xl text-blue-900 font-semibold tracking-wide hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                                class="relative flex items-center rounded-full bg-yellow-300 py-1.5 px-7 text-xl text-blue-900 font-semibold tracking-wide hover:bg-yellow-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
                                 <span class="absolute -inset-1.5"></span>
                                 <span>MyPNCC</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"

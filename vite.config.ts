@@ -2,8 +2,8 @@ import react from '@vitejs/plugin-react';
 import laravel from 'laravel-vite-plugin';
 import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
-//import tailwindcss from '@tailwindcss/vite';
-import tailwindcss from '@tailwindcss/vite/dist/index.mjs';
+import tailwindcss from '@tailwindcss/vite';
+//import tailwindcss from '@tailwindcss/vite/dist/index.mjs';
 
 export default defineConfig({
     plugins: [
