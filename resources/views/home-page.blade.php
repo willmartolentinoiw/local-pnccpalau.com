@@ -167,7 +167,7 @@
                     </p>
 
                     <button type="button"
-                        class="relative flex items-center rounded-full bg-yellow-300 mt-14 p-5 px-12 xl:text-xl text-blue-900 font-semibold tracking-wide hover:bg-yellow-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                        class="relative flex items-center rounded-full bg-yellow-300 mt-14 p-5 px-12 xl:text-xl text-blue-900 font-semibold tracking-wide transition-colors hover:bg-yellow-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
                         <span class="absolute -inset-1.5"></span>
                         <span>Learn More</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -183,6 +183,78 @@
         </ul>
     </section>
     {{-- [Carousel] ::end --}}
+
+    {{-- [Products & Services] ::start --}}
+    <section class="container mx-auto my-40 text-center">
+        <h2 class="h3 text-sky-500 text-4xl lg:text-5xl font-semibold mb-20">Products &amp; Services</h2>
+
+        <ul class="lg:flex lg:justify-between lg:flex-wrap text-white tracking-wider mx-8 lg:mx-auto xl:w-[85%]">
+            <li class="relative bg-gradient-to-b from-teal-400 to-red-200 flex flex-col items-center text-lg rounded-3xl lg:w-[46.5%] lg:flex-[0_0_46.5%] mb-14 lg:mb-20 pt-10 px-8 pb-0">
+                <h3 class="text-4xl font-bold mb-5 leading-tight">
+                    Residential &amp; Personal
+                </h3>
+
+                <p>
+                    Palau's One-Stop Shop for Home &amp; <br />Personal Telecom
+                </p>
+
+                <button type="button"
+                    class="absolute bottom-0 inline-flex items-center rounded-full bg-red-400 border-2 border-white border-solid my-8 p-4 px-16 text-white font-semibold tracking-wider transition-colors hover:bg-white hover:text-red-400 hover:border-red-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                    <span>Learn More</span>
+                </button>
+                <img src="/img/pages/index/residential-and-personal.png" />
+            </li>
+            <li class="relative bg-gradient-to-b from-teal-400 to-red-200 flex flex-col items-center text-lg rounded-3xl lg:w-[46.5%] lg:flex-[0_0_46.5%] mb-14 lg:mb-20 pt-10 px-8 pb-0">
+                <h3 class="text-4xl font-bold mb-5 leading-tight">
+                    Business
+                </h3>
+
+                <p>
+                    Reliable internet, voice, and TV solutions <br />
+                    for Palau's business
+                </p>
+
+                <button type="button"
+                    class="absolute bottom-0 inline-flex items-center rounded-full bg-red-400 border-2 border-white border-solid my-8 p-4 px-16 text-white font-semibold tracking-wider transition-colors hover:bg-white hover:text-red-400 hover:border-red-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                    <span>Learn More</span>
+                </button>
+                <img src="/img/pages/index/business.png" />
+            </li>
+            <li class="relative bg-gradient-to-b from-teal-400 to-red-200 flex flex-col items-center text-lg rounded-3xl lg:w-[46.5%] lg:flex-[0_0_46.5%] mb-14 lg:mb-20 pt-10 px-8 pb-0">
+                <h3 class="text-4xl font-bold mb-5 leading-tight">
+                    Visitors
+                </h3>
+
+                <p>
+                    Palau's fastest LTE with prepaid SIMs <br />
+                    in downtown Koror
+                </p>
+
+                <button type="button"
+                    class="absolute bottom-0 inline-flex items-center rounded-full bg-red-400 border-2 border-white border-solid my-8 p-4 px-16 text-white font-semibold tracking-wider transition-colors hover:bg-white hover:text-red-400 hover:border-red-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                    <span>Learn More</span>
+                </button>
+                <img src="/img/pages/index/visitors.png" />
+            </li>
+            <li class="relative bg-gradient-to-b from-teal-400 to-red-200 flex flex-col items-center text-lg rounded-3xl lg:w-[46.5%] lg:flex-[0_0_46.5%] mb-14 lg:mb-20 pt-10 px-8 pb-0">
+                <h3 class="text-4xl font-bold mb-5 leading-tight">
+                    Bundles
+                </h3>
+
+                <p>
+                    Save on prepaid data, voice &amp; internet with <br />
+                    PNCC's latest bundles and promos
+                </p>
+
+                <button type="button"
+                    class="absolute bottom-0 inline-flex items-center rounded-full bg-red-400 border-2 border-white border-solid my-8 p-4 px-16 text-white font-semibold tracking-wider transition-colors hover:bg-white hover:text-red-400 hover:border-red-400 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                    <span>Learn More</span>
+                </button>
+                <img src="/img/pages/index/bundles.png" />
+            </li>
+        </ul>
+    </section>
+    {{-- [Products & Services] ::end --}}
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
