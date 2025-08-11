@@ -256,6 +256,75 @@
     </section>
     {{-- [Products & Services] ::end --}}
 
+    {{-- [How can we help?] ::start --}}
+    <section class="container mx-auto my-40 text-center">
+        <h2 class="h3 text-sky-500 text-4xl lg:text-5xl font-semibold mb-20">How can we help?</h2>
+
+        <ul class="sm:flex sm:justify-between sm:flex-wrap text-white tracking-wider mx-8 sm:mx-auto xl:w-[85%]">
+            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
+                <i class="size-14">
+                    {!! file_get_contents('img/ui/icons/svg/cart.svg') !!}
+                </i>
+
+                <p class="font-semibold leading-tight mt-2">
+                    Buy Prepaid Airtime <br />
+                    or Internet Online
+                </p>
+            </li>
+            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
+                <i class="size-14">
+                    {!! file_get_contents('img/ui/icons/svg/pointer-hand.svg') !!}
+                </i>
+
+                <p class="font-semibold leading-tight mt-2">
+                    Pay my bill online, view bill <br />
+                    history and check postpaid <br />
+                    mobile data usage
+                </p>
+            </li>
+            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
+                <i class="size-14">
+                    {!! file_get_contents('img/ui/icons/svg/pointer-hand.svg') !!}
+                </i>
+
+                <p class="font-semibold leading-tight mt-2">
+                    Pay my bill online <br />
+                    (no registration required)
+                </p>
+            </li>
+            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
+                <i class="size-14">
+                    {!! file_get_contents('img/ui/icons/svg/app.svg') !!}
+                </i>
+
+                <p class="font-semibold leading-tight mt-2">
+                    Download the <br />
+                    SmartHub app
+                </p>
+            </li>
+            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
+                <i class="size-14">
+                    {!! file_get_contents('img/ui/icons/svg/lifebuoy.svg') !!}
+                </i>
+
+                <p class="font-semibold leading-tight mt-2">
+                    Customer Support: <br />
+                    Call 611
+                </p>
+            </li>
+            <li class="relative bg-gray-100 flex flex-col items-center justify-center text-red-400 rounded-3xl sm:w-[46.5%] sm:flex-[0_0_46.5%] lg:w-[32%] lg:flex-[0_0_32%] mb-14 lg:mb-20 py-16 px-10">
+                <i class="size-14">
+                    {!! file_get_contents('img/ui/icons/svg/star-on-hand.svg') !!}
+                </i>
+
+                <p class="font-semibold leading-tight mt-2">
+                    Unlock exclusive rewards
+                </p>
+            </li>
+        </ul>
+    </section>
+    {{-- [How can we help?] ::end --}}
+
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
