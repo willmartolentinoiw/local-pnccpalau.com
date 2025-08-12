@@ -371,6 +371,45 @@
     </section>
     {{-- [Why PNCC?] ::end --}}
 
+    {{-- [Let's connect] ::start --}}
+   <section class="container mx-auto my-24 max-w-6xl text-center">
+        <h2 class="h3 text-sky-500 text-4xl lg:text-5xl font-semibold mb-20">Let's connect</h2>
+
+        <ul class="lg:flex lg:justify-between lg:flex-wrap text-lg tracking-widest mx-8 lg:mx-auto">
+            <li class="lg:w-[33.33%] lg:flex-[0_0_33.33%] mb-14 lg:mb-0">
+                <i class="inline-block size-10">
+                    {!! file_get_contents('img/ui/icons/svg/phone.svg') !!}
+                </i>
+
+                <p class="leading-tight mt-2">
+                    Airai HQ <br />
+                    <span class="text-red-400 font-bold">680 587-9000</span>
+                </p>
+            </li>
+            <li class="lg:w-[33.33%] lg:flex-[0_0_33.33%] mb-14 lg:mb-0">
+                <i class="inline-block size-10">
+                    {!! file_get_contents('img/ui/icons/svg/map-pin.svg') !!}
+                </i>
+
+                <p class="leading-tight mt-2">
+                    Address <br />
+                    <span class="text-red-400 font-bold">P.O. Box 99, Koror, PW 96940 Palau</span>
+                </p>
+            </li>
+            <li class="lg:w-[33.33%] lg:flex-[0_0_33.33%] mb-14 lg:mb-0">
+                <i class="inline-block size-10">
+                    {!! file_get_contents('img/ui/icons/svg/phone.svg') !!}
+                </i>
+
+                <p class="leading-tight mt-2">
+                    Koror Office <br />
+                    <span class="text-red-400 font-bold">680 488-9000</span>
+                </p>
+            </li>
+        </ul>
+    </section>
+    {{-- [Let's connect] ::end --}}
+
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
