@@ -185,7 +185,7 @@
     {{-- [Carousel] ::end --}}
 
     {{-- [Products & Services] ::start --}}
-    <section class="container mx-auto my-20 text-center">
+    <section class="container mx-auto my-40 text-center">
         <h2 class="h3 text-sky-500 text-4xl lg:text-5xl font-semibold mb-20">Products &amp; Services</h2>
 
         <ul class="lg:flex lg:justify-between lg:flex-wrap text-white tracking-wider mx-8 lg:mx-auto xl:w-[85%]">
@@ -257,7 +257,7 @@
     {{-- [Products & Services] ::end --}}
 
     {{-- [How can we help?] ::start --}}
-    <section class="container mx-auto my-20 text-center">
+    <section class="container mx-auto my-40 text-center">
         <h2 class="h3 text-sky-500 text-4xl lg:text-5xl font-semibold mb-20">How can we help?</h2>
 
         <ul class="sm:flex sm:justify-between sm:flex-wrap text-white tracking-wider mx-8 sm:mx-auto xl:w-[85%]">
@@ -348,28 +348,6 @@
         </ul>
     </section>
     {{-- [How can we help?] ::end --}}
-
-    {{-- [Why PNCC?] ::start --}}
-    <section class="relative bg-sky-500 text-white text-lg text-center lg:text-start tracking-wider my-20">
-        <span class="bg-[url(../../img/pages/index/backgrounds/leave-04.svg)] bg-no-repeat absolute bottom-0 h-[30%] lg:h-[60%] w-full"></span>
-
-        <div class="relative z-10 container mx-auto py-20 px-8 max-w-6xl lg:grid lg:grid-cols-3 lg:items-center">
-            <div class="mb-10 lg:mb-0 lg:col-span-2 lg:pr-20">
-                <h3 class="text-4xl mb-8">Why PNCC?</h3>
-
-                <p>
-                    At PNCC, we've been keeping Palau connected since 1982. From mobile and internet to TV and custom tech solutions, we're here to serve every island and every community. Our team is passionate about bridging distances and bringing people closer — because for us, it's not just about technology, it's about connection.
-                </p>
-            </div>
-
-            <figure>
-                <img src="/img/pages/index/dancer.png" class="mx-auto w-[70%] md:w-[45%] lg:w-auto" />
-            </figure>
-        </div>
-
-        <span class="bg-[url(../../img/pages/index/backgrounds/leave-03.svg)] bg-no-repeat bg-right absolute top-0 right-0 h-[20%] lg:h-[50%] w-full"></span>
-    </section>
-    {{-- [Why PNCC?] ::end --}}
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
